@@ -4,9 +4,12 @@
   "description": "Rubber-ducking/book-clubbing a TS course with a colleague",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc --watch --preserveWatchOutput"
   },
   "keywords": [],
   "author": "Phillip Luther <dev@phillipluther.com> (https://phillipluther.com/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }

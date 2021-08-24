@@ -1,6 +1,8 @@
 # 10 :: Union Types
 
-> Notes/Talking Points
+> Pipe syntax ... 'success' | 'error'
+
+## Notes/Talking Points
 
 * union/intersection just or/and ... logical boolean operators
 * imagine an array of fruits and an array of foods that are sour
@@ -29,7 +31,7 @@ const outcome: ['error', Error] | ['success', {
   * `Error`s have a `name` and the custom `success` object has a `name`
   * if tried to access `success.email` TS would complain because `Error` does not have an email prop ... and the outcome can be an error _or_ success
 
-## Narrowing
+### Narrowing
 
 * we can deal with the above success/error prop ambiguity by narrowing with type guards (mentioned in Module 05)
 * for the above ...

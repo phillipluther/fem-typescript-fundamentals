@@ -26,6 +26,7 @@ interface AnimalLike {
 }
 
 ...
+
 function doSomethingAnimalLike(animal: AnimalLike) {
   // animal will have both isAlive and eat()
 }

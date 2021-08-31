@@ -1,6 +1,6 @@
 # 16 :: `this` Types & Best Practices
 
-> 
+> someFunc(this: HTMLButtonElement, event: Event) { ... }
 
 ## Notes/Talking Points
 

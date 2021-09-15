@@ -40,7 +40,7 @@ if (myVehicle instanceof Truck) {
 }
 ```
 
-* `never` signifies all cases have been handle; the conditional is exhaustive
+* `never` signifies all cases have been handled; the conditional is exhaustive
 * if someone comes along and adds a `Boat` class and ties it into `getRandomVehicle`
   * TS will complain about the `never`, saying -- "well, it could be boat!"
 * in type guards, `never` enforces you deliberately handle or deliberately not-handle a case
